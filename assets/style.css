@@ -14,3 +14,9 @@ header {
     background-color: #6d0e8c;
     color: #ffffff;
 }
+
+.geohex {
+    width: 100%;
+    background-position: center;
+    
+}
