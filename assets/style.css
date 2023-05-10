@@ -71,3 +71,12 @@ a {
     margin-left: 200px;
     padding-left: 10px;
 }
+
+.main-section {
+    padding: 50px;
+}
+
+.section-header {
+    padding: 10px 0px;
+    border-bottom: #6d0e8c solid 5px;
+}
