@@ -79,4 +79,28 @@ a {
 .section-header {
     padding: 10px 0px;
     border-bottom: #6d0e8c solid 5px;
+    margin-bottom: 10px;
+}
+
+.work-images {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hero-image {
+    background-image: url("./images/purplehex.jpeg");
+    height: 300px;
+}
+
+.sub-images {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
