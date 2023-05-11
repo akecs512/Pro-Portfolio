@@ -73,8 +73,13 @@ a {
     padding-left: 10px;
 }
 
+
+
 .main-section {
     padding: 50px;
+
+
+
 }
 
 .section-header {
@@ -88,7 +93,7 @@ a {
     flex-direction: column;
     gap: 5px;
     width: 935px;
-
+    margin: auto;
 }
 
 .hero-image {
@@ -121,7 +126,8 @@ a {
 }
 
 
-.sub-images div.column div  {
+.sub-images div.column figure {
+    position: relative;
     height: 500px;
     background-repeat: no-repeat;
     background-position: center;
@@ -129,11 +135,25 @@ a {
     border: 1px solid darkblue;
 }
 
-.image-overlay {
+figure .figure-caption,
+.hero-image .figure-caption {
     position: absolute;
-    bottom: 8px;
-    left: 16px;
+    bottom: 9px;
     color: yellow;
     background-color: teal;
     width: fit-content;
+    padding: 6px 9px;
+}
+
+@media screen and (min-width: 480px) {
+    .main-section {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .section-header {
+        border-bottom: none;
+        border-right: 5px solid #6d0e8c;
+    }
+    
 }
