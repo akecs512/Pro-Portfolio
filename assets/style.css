@@ -43,19 +43,6 @@ a {
     height: 200px;
     background-position: center;
 }
-.title {
-    height: 100%;
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    top: 300px;
-    left: 0;
-    overflow-x: hidden;
-    /* background-color: #e3d8ed; */
-    padding: 20px;
-    /* margin-top: 10px; */
-    text-decoration: underline;
-}
 
 .work {
     margin-top: 100px;
