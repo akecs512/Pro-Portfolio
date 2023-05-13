@@ -86,6 +86,8 @@ a {
     padding: 10px 0px;
     border-bottom: #6d0e8c solid 5px;
     margin-bottom: 10px;
+    font-size: 40px;
+    color: #6d0e8c;
 }
 
 .work-images {
@@ -143,6 +145,16 @@ figure .figure-caption,
     background-color: teal;
     width: fit-content;
     padding: 6px 9px;
+}
+
+footer h4 {
+    display: inline;
+    margin-right: 1em;
+    text-decoration: underline;
+    color: blueviolet;
+    font-size: 25px;
+    padding: 10px;
+
 }
 
 /* @media screen and (min-width: 480px) {

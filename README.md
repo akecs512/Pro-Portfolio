@@ -2,7 +2,8 @@
 Professional Portfolio for bootcamp Challenge 2
 
 <<<<<<< HEAD
-#Description
+#
+Description
 =======
 # Description
 
